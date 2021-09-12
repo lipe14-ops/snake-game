@@ -9,16 +9,19 @@
   </head>
   <body>
     <script type='module' src="script.js"></script>
-    <div>
-      <strong>
-        press any arrow to play
-      </strong>
-    </div>
+    <div id='title'>snake game</div>
     <div class="game">
-      <div class='board'>
-        <div id='title'>snake game</div>
-        <canvas width='300' height='300' id='canvas'></canvas>
-    </div>
+        <div id='tutorial' >
+            capture the green square with the snake and move it using the arrow keys on your keyboard. 
+        </div>
+        <canvas width='400' height='400' id='canvas'></canvas>
+        
+        <div id='modal' class='noshow'>
+            <div>you loose!!!</div>
+            <div>record: 0</div>
+            <div>score: 0</div>
+            <div>↺</div>
+        </div>
         <div id='score'>score: 0</div>
     </div>
   </body>
