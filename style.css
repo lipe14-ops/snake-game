@@ -4,12 +4,12 @@ body {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
         font-size: 20px;
-  left: 50%;
-  top: 50%;
-  margin: 0;
-  position: absolute;
-  transform: translate(-50%, -60%);
-    text-shadow: 0px 0px 10px #fff;
+    left: 50%;
+    top: 50%;
+    margin: 0;
+    position: absolute;
+    transform: translate(-50%, -60%);
+        text-shadow: 0px 0px 10px #fff;
 }
 
 .game {
@@ -43,8 +43,8 @@ body {
 
 #modal > div:first-child {
     margin: 10px;
-    color: #ff007f;
-    text-shadow: #ff007f; 
+    color: #aaa;
+    text-shadow: #aaa; 
     font-size: 30px;
 }
 
@@ -65,6 +65,7 @@ body {
 #modal > div:last-child:hover {
     transform: rotate(-360deg);
     -webkit-transform: rotate(-360deg);
+    text-shadow: #aaa; 
 }
 
 #tutorial {

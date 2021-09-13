@@ -29,19 +29,19 @@ function randomGridPosition(min, max){
 function renderSnake(snake) {
     context.clearRect(0, 0, canvas.width, canvas.height)
 
-    context.shadowColor = '#ff007f'
+    context.shadowColor = '#ffffff'
     context.shadowBlur = pixelSize / 2
 
     for (const [index, pixel] of snake.entries()) {
-        context.fillStyle = index === snake.length - 1 ? '#ff007f' : '#ff007faa'
+        context.fillStyle = index === snake.length - 1 ? '#ffffff' : '#ffffffaa'
 
         context.fillRect(pixel[0], pixel[1], pixelSize,pixelSize)
   }
 }
 
 function renderTarget(target) {
-    context.fillStyle = '#90ee90'
-    context.shadowColor = '#90ee90'
+    context.fillStyle = '#aaa'
+    context.shadowColor = '#aaa'
     context.shadowBlur = 5
     context.fillRect(target[0], target[1], pixelSize, pixelSize)
 }
@@ -144,4 +144,6 @@ modalItems[3].addEventListener('click', () => {
         randomGridPosition(0, canvas.width - pixelSize),
         randomGridPosition(0, canvas.height - pixelSize)
     ]
+
+    score.innerHTML = `score: ${snakeLength - 1}`
 })
