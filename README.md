@@ -3,7 +3,7 @@
 
 ## snake game in javascript :snake:
 
-<img src='snakegame.gif' width='500'/>
+<img src='https://user-images.githubusercontent.com/78698099/133248630-331f5c0a-78d2-4fbc-b996-41287faa1bf2.gif' width='500'/>
 
 ### goal :dart::
 i made it to test my skills in CSS3 HTML5 and JS and improve it.
